@@ -42,7 +42,12 @@ nav, .servicios, .presentacion, .footer-content{
 .titulo-servicios, .presentacion{
     margin-bottom: 10%;
 }
+// Variables
 
+$font-p: 1.8rem;
+$font-h1: 3.0rem;
+$font-h2: 2.4rem;
+$font-h3: 2.0rem;
 p{
     font-size:$font-p;
     color: rgb(134, 132, 132);
@@ -117,6 +122,3 @@ h3{
 
 }
 
-.ejemplo{
-    font-size: font-calc(50, h2);
-}
